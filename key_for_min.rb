@@ -6,4 +6,6 @@ if name_hash.length == 0
   return nil 
 else 
   arry =[]
+  name_hash.each do |key, value|
+    array << value
 end
