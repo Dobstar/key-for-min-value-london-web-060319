@@ -14,4 +14,6 @@ array.each do |value|
   min_num = value if value < min_num
 end
 name_hash.each do |key, value|
-  if min_num == key
+  if min_num == value
+    return key
+  end 
