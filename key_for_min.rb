@@ -9,3 +9,4 @@ else
   name_hash.each do |key, value|
     array << value
 end
+min_num = array[0]
