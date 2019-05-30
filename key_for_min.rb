@@ -17,3 +17,4 @@ name_hash.each do |key, value|
   if min_num == value
     return key
   end 
+end 
